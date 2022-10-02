@@ -38,7 +38,7 @@ $$-\frac{\sum\limits_{x_i\in{M}}y_i*(w*x_i+b)}{||w||}$$
 > 同时，当数据集线性可分的时候，感知机学习算法是收敛的（否则迭代结果会震荡）。但是其存在无穷多个解，这是由于多个不同的初值或不同的迭代顺序而可能有所不同。
 
 ## 2.5 python针对上诉算法的实现
-github地址：[点击跳转]()
+github地址：[点击跳转](https://github.com/HumbleSwage/PYML/blob/main/preceptron/perceptron.py)
 ```python
 import numpy as np
 import pandas as pd
